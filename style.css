@@ -547,3 +547,205 @@ body {
     color: var(--btn);
     transition: 0.3s ease-in-out;
 }
+
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  * {
+    max-width: 100%;
+  }
+  
+  .navbar {
+    left: 0;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  
+  .navbar .nav-back {
+    width: 100%;
+    border-radius: 0;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  
+  .navbar .nav-back ul {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .navbar .nav-back ul li {
+    margin: 5px 10px;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .atasan {
+    flex-direction: column;
+    height: auto;
+    margin: 0 10px;
+    padding: 20px 0;
+    border-radius: 20px;
+  }
+  
+  .atasan .paralax1,
+  .atasan .paralax2 {
+    display: none;
+  }
+  
+  .atasan .isiatasan {
+    margin: 50px 20px;
+    text-align: center;
+  }
+  
+  .atasan .isiatasan h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+  
+  .atasan .isiatasan p {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .atasan .isiatasan .buttom-atasan {
+    justify-content: center;
+  }
+  
+  .product h1 {
+    font-size: 32px;
+    margin: 30px 0;
+  }
+  
+  .product .categories {
+    margin: 0 20px;
+  }
+  
+  .product .classcollection {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product .classcollection .highclass {
+    margin: 10px 0;
+  }
+  
+  .product .classcollection .highclass-product,
+  .product .classcollection .highclass-product1 img,
+  .product .classcollection .highclass-product2 img {
+    width: 280px;
+    height: auto;
+    filter: none;
+  }
+  
+  .release {
+    font-size: 32px;
+    padding: 30px 0;
+    border-radius: 30% 30% 0 0;
+  }
+  
+  .body .catalog {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .body .catalog .parfum1 {
+    margin: 20px 0;
+    width: 90%;
+  }
+  
+  /* Review section */
+  .review h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .review-box {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .review-box div {
+    grid-template-columns: auto;
+    grid-gap: 15px;
+  }
+  
+  #backbtn, #nextbtn {
+    margin: 20px 10px;
+    width: 30px;
+  }
+  
+ 
+  .showcaselayout {
+    flex-direction: column;
+  }
+  
+  .first-project-wrapper,
+  .project-list-wrapper {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .project {
+    margin: 15px 0;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-content h2 {
+    font-size: 20px;
+  }
+  
+  .text-content p {
+    font-size: 14px;
+  }
+  
+  .flex.gap-3 {
+    flex-wrap: wrap;
+  }
+  
+  .flex.gap-3 span {
+    margin-bottom: 5px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar .nav-back {
+    width: 550px;
+  }
+  
+  .atasan {
+    margin: 0 20px;
+  }
+  
+  .atasan .paralax1,
+  .atasan .paralax2 {
+    margin-left: 50px;
+  }
+  
+  .product .classcollection {
+    flex-wrap: wrap;
+  }
+  
+  .body .catalog {
+    flex-wrap: wrap;
+  }
+  
+  .review-box div {
+    grid-template-columns: auto auto;
+  }
+}
