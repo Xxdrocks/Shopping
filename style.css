@@ -549,15 +549,12 @@ body {
 }
 
 
-/* Mobile First Approach (up to 480px) */
 @media (max-width: 480px) {
-  /* Base Reset */
   body {
     overflow-x: hidden;
     font-size: 14px;
   }
   
-  /* Navigation */
   .navbar {
     position: static;
     flex-direction: column;
@@ -591,7 +588,6 @@ body {
     display: none;
   }
   
-  /* Hero Section */
   .atasan {
     height: auto;
     margin: 10px;
@@ -626,7 +622,6 @@ body {
     justify-content: center;
   }
   
-  /* Product Section */
   .product h1 {
     font-size: 24px;
     margin: 20px 0;
@@ -657,7 +652,6 @@ body {
     filter: none;
   }
   
-  /* Showcase Section */
   .showcaselayout {
     flex-direction: column;
     margin-top: 20px !important;
@@ -693,7 +687,6 @@ body {
     margin: 2px;
   }
   
-  /* Catalog Section */
   .body .catalog {
     flex-direction: column;
   }
@@ -708,7 +701,6 @@ body {
     height: 140px;
   }
   
-  /* Review Section */
   .review h1 {
     font-size: 20px;
   }
@@ -734,7 +726,6 @@ body {
   }
 }
 
-/* Small Tablet Adjustments (481px - 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
   .atasan .isiatasan h1 {
     font-size: 28px;
